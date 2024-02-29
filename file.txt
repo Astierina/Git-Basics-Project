@@ -1,0 +1,11 @@
+
+mkdir GitBasicsProject
+git init
+code -r .
+mkdir config src
+cd config
+touch app.config
+cd ../
+touch settings.json
+touch .gitignore  (config / settings.json / *.log)
+
